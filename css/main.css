@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, p, a{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 16px ;
+    font-size: 20px ;
     padding: 10px;
     position: fixed;
     background-color: white;
@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, p, a{
     border-bottom: 5px soild rgb(0, 0, 0);
 }
 .nav .logo{
-    width: 10%;
-    text-align: right;
+    width:15%;
+    text-align: left;
     display: flex;
-    margin-left: 50px;
+    margin-left: 0px;
     justify-content: space-evenly;
 }
 .nav .logo img{
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, p, a{
     width: 100%;
 }
 .nav .nav-items{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -64,14 +64,15 @@ h1, h2, h3, h4, h5, p, a{
     margin-left: 15px;
 }
 .nav .nav-items .last-item .drive{
-    border: 1px solid rgb(225, 225, 255) ;
+    border: 1px solid rgb(143, 143, 243) ;
     padding: 10px 15px;
 }
 .nav .nav-items .last-item .try-drive{
     border: 1px solid rgb(225, 225, 255);
     padding: 10px 15px;
-    background-color: blue;
+    background-color: rgb(59, 59, 255);
     color: white;
+    border-radius: 5px;
 }
 /* navigation ends */
 
@@ -678,7 +679,7 @@ padding: 5px;
     .nav-items .first-item{display: none;}
     .nav-items .last-item{display: none;}
     .nav .logo{
-        width: 20%;
+        width: 600%;
         display: flex;
         text-align: center;
         margin-left: 50px;
@@ -689,7 +690,7 @@ padding: 5px;
         width: 100%;
     }
     .nav .logo .item a{
-        font-size: 25px;
+        font-size: 30px;
     }
     /* Logo Ends here */
 
@@ -1354,11 +1355,11 @@ height: auto;
         width: 100%;
         display: flex;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .nav .logo .item a{
         font-size: 25px;
-        padding-left: 20px;
+        padding-left: 0px;
     }
     #overview h1{
         font-size: 45px;
@@ -1799,7 +1800,7 @@ height: auto;
     }
     .nav .logo .item a{
         font-size: 22px;
-        padding-left: 10px;
+        padding-left: 0px;
     }
     #overview h1{
         font-size: 35px;
@@ -1828,8 +1829,8 @@ height: auto;
 }
 @media (max-width:320px) {
     .nav .logo .item a{
-        font-size: 18px;
-        padding-left: 5px;
+        font-size: 17px;
+        padding-left: 0px;
     }
     #overview h1{
         font-size: 28px;
@@ -1854,7 +1855,7 @@ height: auto;
     }
 }
 /* download Page Starts Here */
-@media (max-width:1024px) {
+/* @media (max-width:1024px) {
     .nav-items .first-item{display: none;}
     .nav-items .last-item{display: block;}
     
@@ -1894,4 +1895,4 @@ height: auto;
 .download .col .col-none{
     display: block;
 }
-}
+} */
